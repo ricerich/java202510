@@ -19,5 +19,4 @@ public class Ex07 {
 		else
 			System.out.println("("+x+","+y+")는 밖에!!!!");
 	}
-
 }
