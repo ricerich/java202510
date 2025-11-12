@@ -1,8 +1,8 @@
-package ch04_ex;
+package ch04.ex01;
 
-public class CircleManager 
-{
-	void run() {
+public class Ex01 {
+
+	public static void main(String[] args) {
 		Circle pizza; 
 		pizza = new Circle(); 					// Circle 객체 생성
 		pizza.radius = 10; 						// 피자의 반지름을 10으로 설정

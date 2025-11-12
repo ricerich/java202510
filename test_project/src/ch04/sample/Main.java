@@ -1,6 +1,6 @@
-package ch04_ex.test;
+package ch04.sample;
 
-public class Ex001 
+public class Main 
 {
 	
 //	Circle c2;

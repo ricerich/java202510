@@ -1,4 +1,4 @@
-package ch04_ex.test;
+package ch04.sample;
 
 //1.만들기 - 클래스
 public class Circle 
