@@ -18,7 +18,6 @@ public class Ex07
 		}
 		System.out.println();
 		System.out.println("평균: " + sum/arr.length);	
-		
 	}
 
 }
