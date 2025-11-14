@@ -1,14 +1,36 @@
 package ch04.ex06;
 
-public class Circle 
+public class Circle
 {
-	int radius;
+	private int x;
+	private int y;
+	private int radius;
 	
-	public Circle(int radius) {
-		this.radius = radius;
+	public Circle()
+	{
+		x=0;
+		y=0;
+		radius=1;
 	}
 	
-	public double getArea() {
-		return 3.14*radius*radius;
+	public void setX(int x) {
+		this.x = x;
+		printX();
 	}
+	
+	public int getX()
+	{
+		return x;
+	}
+	
+	private void printX()
+	{
+		System.out.println("x값은: "+ x);
+	}
+	
 }
+
+
+
+
+
