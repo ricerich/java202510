@@ -6,7 +6,6 @@ public class MonthlySchedule {
 
 	private int total_day;//전체 일수 ==배열의 길이	
 	private Day dayArr[]; //Day객체가 여러개인 배열(한달)
-	
 	private Scanner sc;
 	
 	public MonthlySchedule(int total_day) {
