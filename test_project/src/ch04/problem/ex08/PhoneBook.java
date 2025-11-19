@@ -45,8 +45,10 @@ public class PhoneBook
 			}
 			
 			//입력받은 이름이 전화번호 배열을 돌면서 안에 있는지 검사
-			int i;
-			for(i=0; i<phoneArr.length; i++) {
+//			int i;
+			int cnt=0;
+			for(int i=0; i<phoneArr.length; i++) {
+				cnt = i;
 //				if(name.equals(phoneArr[i]))
 				if(phoneArr[i].getName().equals(name)) {
 					System.out.println(name+"의 번호는 "+phoneArr[i].getTel()+" 입니다");
@@ -54,7 +56,7 @@ public class PhoneBook
 				}
 			}
 			
-			if(i==phoneArr.length)
+			if(cnt==phoneArr.length-1)
 				System.out.println("홍길동의 번호는 없습니다.");
 		}
 	}
