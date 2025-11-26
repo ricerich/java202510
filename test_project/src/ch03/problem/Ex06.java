@@ -1,4 +1,4 @@
-package ch03_problem;
+package ch03.problem;
 
 import java.util.Scanner;
 

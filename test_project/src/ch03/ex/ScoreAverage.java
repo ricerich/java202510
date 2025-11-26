@@ -1,4 +1,4 @@
-package ch03_ex;
+package ch03.ex;
 public class ScoreAverage {
 	public static void main(String[] args) {
 		double score[][] = { {3.3, 3.4}, // 1학년 1, 2학기 평점
